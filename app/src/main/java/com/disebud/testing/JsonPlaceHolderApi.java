@@ -19,7 +19,7 @@ public interface JsonPlaceHolderApi {
     @GET("getListName")
     Call<List<Userr>> getUser(@Header("auth") String key);
 
-
+// TESTING API PUBLIC
     @GET("posts")
     Call<List<Post>> getPost();
 }
